@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <title>TestA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if IE 8]>
+<script
+  src="http://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<![endif]-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles/workshop-manual.css">
+  <link rel="stylesheet" href="styles/outPatientAccess/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse"></nav>
+    
+    <div style="margin-left: 20px; margin-right: 20px;">
+    
+	   
+	<div class="panel panel-success">
+	  <div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span> General information</div>
+	  <div class="panel-body">
+		<p>ADT is a legacy function set - now covered by WD2/4 function set in IPADM and IPTSD</p>
+	</div>
+  </div>
+  
+  <!-- outpatient access widget -->
+  <div class="panel panel-success">
+	  <div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span>Outpatient Access Guide</div>
+	  <!-- <div class="panel-body"> -->
+      <div class="container panel-body">
+        <div id="prevHeader">Previous course selector</div>
+        <div id="currHeader">Current course selector</div>
+        <div id="calcHeader">Calculated course access required</div>
+
+        <div id="prevOPM3" class="prevCourse">OPM3</div>
+        <div id="prevOPM5" class="prevCourse">OPM5</div>
+        <div id="prevOPM7" class="prevCourse">OPM7</div>
+
+        <div id="currOPM3" class="currCourse">OPM3</div>
+        <div id="currOPM5" class="currCourse">OPM5</div>
+        <div id="currOPM7" class="currCourse">OPM7</div>
+        <div id="calculated"></div>
+    </div>	
+	<!-- </div> -->
+  </div>
+  
+      
+	   
+  </div>
+  
+
+
+    <script src="scripts/outPatientAccess/addToArray.js"></script>
+    <script src="scripts/outPatientAccess/removeFromArray.js"></script>
+    <script src="scripts/outPatientAccess/disableOtherCourse.js"></script>
+    <script src="scripts/outPatientAccess/enableOtherCourse.js"></script>
+    <script src="scripts/outPatientAccess/calculateAccess.js"></script>
+    <script src="scripts/outPatientAccess/disableCourse.js"></script>
+    <script src="scripts/outPatientAccess/disableOPM7.js"></script>
+    <script src="scripts/outPatientAccess/disableOPM7DOM.js"></script>
+    <script src="scripts/outPatientAccess/cleanUpSelected.js"></script>
+    <script src="scripts/outPatientAccess/outpatientAccess.js"></script>
+
+<script src="scripts/objects.js"></script>
+<script src="scripts/nav-bar.js"></script>
+<script src="scripts/workshop-manual.js"></script>
+<script>
+
+//console.log("running");
+//objectsTest();
+//testNav();
+//testMain();
+
+</script>
+
+</body>
+</html>

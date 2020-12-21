@@ -1,0 +1,5 @@
+Db name: andrewro_wsman
+Db user: andrewro_2
+password: 0L&vb15t
+
+

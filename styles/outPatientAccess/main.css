@@ -1,0 +1,106 @@
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-items: stretch;
+    justify-content: stretch;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0px;
+
+}
+
+
+
+/* *{
+    border-radius: 2px;
+} */
+
+.prevCourse{
+    background-color: #f5d1a0;
+    cursor: pointer;
+}
+
+.prevCourseSelected{
+    background-color:#5cb85c;
+    cursor: pointer;
+}
+
+.currCourse{
+    background-color: #f0ad4e;
+    cursor: pointer;
+}
+
+.currCourseSelected{
+    background-color: #5cb85c;
+    cursor: pointer;
+}
+
+.disabled{
+    background-color: #5bc0de!important;
+    color: grey;
+    cursor: not-allowed !important;
+}
+
+
+#prevHeader {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #337ab7;
+    color: #fff;
+  }
+
+#currHeader {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #337ab7;
+    color: #fff;
+}
+
+#calcHeader{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/* #prevNone {
+    grid-column: 1;
+    grid-row: 2;
+} */
+
+#prevOPM3{
+    grid-column: 1;
+    grid-row:2;
+}
+
+#prevOPM5{
+    grid-column: 1;
+    grid-row: 3
+}
+
+#prevOPM7{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#currOPM3{
+    grid-column: 2;
+    grid-row:2;
+}
+
+#currOPM5{
+    grid-column:2;
+    grid-row:3;
+}
+
+#currOPM7{
+    grid-column:2;
+    grid-row:4;
+}
+
+#calculated{
+    grid-column: 3;
+    grid-row: 2/5;
+}
+

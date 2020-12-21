@@ -1,0 +1,207 @@
+.white-table{
+	background-color: white;
+}
+
+#treebtns{
+	padding:20px;
+}
+
+ul, .col-md-3 {
+  /* list-style-type: none !important; */
+  cursor: pointer;
+}
+
+td ul li.pressed, td.pressed, td ul li:hover{
+	background-color: Azure !important;
+}
+
+.noSelect, td {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#heading{
+	padding-left: 20px;
+}
+
+#btns{
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+#clearBtn, #clearBoxBtn{
+	
+}
+
+#advice{
+	border: solid green 2px;
+	margin: 5px 0px 5px 0px;
+	padding: 15px;
+	color: blue;
+	border-radius: 5px;
+}
+
+#info{
+	background-color: #fff4f6 ;
+	border: solid pink 2px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+	color: blue;
+	border-radius: 5px;
+}
+
+#warning{
+	border: solid red 5px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+	color: blue;
+	background-color: yellow;
+	border-radius: 5px;
+}
+
+#PASlogin{
+	color: red;
+}
+
+#prereq{
+	color: #FF4500;
+	background-color: #FFD700;
+	border: solid #FF4500 2px;
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	border-radius: 5px;
+}
+
+#procedure{
+	color: #199500;
+	background-color: #FAF3E4;
+	border: solid #199500 2px;
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	border-radius: 5px;
+}
+
+ul#proc{
+	list-style-type: square !important;
+}
+
+#materials{
+	background-color: #e6f7ff;
+	border: solid blue 2px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+	color: blue;
+	border-radius: 5px;
+}
+#confirmation{
+	border: solid blue 2px;
+	margin: 5px 0px 5px 0px;
+	padding: 15px;
+	color: orange;
+	border-radius: 5px;
+}
+#searchFormDiv{
+	margin-top:10px;
+	margin-bottom: -10px;
+	margin-right: 30px;
+}
+
+#form-wrapper{
+	
+	width: 250px;
+}
+
+#firstPara{
+	/* border: solid blue 2px; */
+	margin: 20px 20px 20px 20px;
+	padding: 15px;
+	
+/* 	color: blue;
+	border-radius: 5px; */
+}
+
+.searchContent{
+	background-color: #e1fafa !important;
+}
+
+#searchReturn{
+	border: solid blue 2px;
+	margin: 2px 2px -25px 2px;
+	padding: 15px;
+	color: blue;
+	border-radius: 5px;
+}
+
+.panelA{
+	display: none;
+	
+}
+
+#imageContainer{
+	height: 400px;
+	overflow:  hidden
+}
+
+#headerImage{
+	/* height: 450px; */
+	/* width: 100%; */
+	/* max-height:1000px; */
+/* 	animation-name: imageZoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards; */
+/* 	-webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;*/
+    /* transition: 2s ease-in; */
+}
+
+
+/* @keyframes imageZoom {
+  0%   {transform: scale(1) translate(0em,0);}
+  100% {transform: scale(1.1) translate(-1em,-1em);}
+} */
+
+.panel-default > .panel-heading-important {
+background: #ff0000; color: #fff; }
+
+.panel-default > .panel-body-important{
+background: #ffff00; color: #ff0000; }
+
+.panel-default > .panel-heading-procedure {
+background: #FF6347; color: #fff; }
+
+.panel-default > .panel-body-procedure{
+background: #fff; color: #000000; }
+
+#teachingNotes{
+	background-color: #bce6bc !important;
+}
+
+
+/* nav bar login css */
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}
+
+.flex-container > div{
+	padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
