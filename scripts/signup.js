@@ -43,7 +43,7 @@ $(document).ready(function(){
                         
                         localStorage.setItem("username", currentUserName);
                         localStorage.setItem("userId", currentUserId);
-                        window.location.href = "/workshopManualBasic/index.html";
+                        window.location.href = "index.html";
                         //location.reload();
                     }
 

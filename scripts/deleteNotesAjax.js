@@ -17,7 +17,7 @@ $( '#addedNote' ).on('click','.delete',function() {
 
     $.ajax({
         method: "POST", 
-        url: "/workshopManualBasic/php/DeleteNotes.php",
+        url: "php/DeleteNotes.php",
         data: {recordId: recordToDelete },
     })
     .done(function(result){		

@@ -118,10 +118,10 @@ $(document).ready(function(){
 	scriptsString +='<script src="scripts/login.js"></script>';
 	// scriptsString +='<script src="scripts/form.js"></script>';
 	scriptsString +='<script src="scripts/readDropDowns.js"></script>';
-	scriptsString +='<script src="/workshopmanualBasic/scripts/writeNotesAjax.js"></script>';
-	scriptsString +='<script src="/workshopmanualBasic/scripts/readNotesAjax.js"></script>';
-	scriptsString +='<script src="/workshopmanualBasic/scripts/deleteNotesAjax.js"></script>';
-	scriptsString +='<script src="/workshopmanualBasic/scripts/editNotesAjax.js"></script>';
+	scriptsString +='<script src="scripts/writeNotesAjax.js"></script>';
+	scriptsString +='<script src="scripts/readNotesAjax.js"></script>';
+	scriptsString +='<script src="scripts/deleteNotesAjax.js"></script>';
+	scriptsString +='<script src="scripts/editNotesAjax.js"></script>';
 
 	$('body').append(scriptsString);
 

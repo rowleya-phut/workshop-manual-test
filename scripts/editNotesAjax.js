@@ -14,7 +14,7 @@ $( '#addedNote' ).on('click','.edit',function() {
 
     $.ajax({
         method: "POST", 
-        url: "/workshopManualBasic/php/editNotes.php",
+        url: "php/editNotes.php",
         data: {recordId: recordToEdit, updatedTxt: updatedText },
     })
     .done(function(result){		

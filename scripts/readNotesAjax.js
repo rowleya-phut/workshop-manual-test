@@ -44,7 +44,7 @@ $( document ).ready(function() {
 	
 	/////////////////read  notes from ReadNotes.php data ajax call//////////////////////////
     //
-    $.ajax({method: "POST", url: "/workshopManualBasic/PHP/ReadNotes.php", })
+    $.ajax({method: "POST", url: "PHP/ReadNotes.php", })
     .done(function(returnedData){
 		//console.log(returnedData);
 		

@@ -36,7 +36,7 @@ $( document ).ready(function() {
 
             var form = $(this);
 			//console.log(form);
-            var url = "/workshopManualBasic/PHP/WriteNotes.php";
+            var url = "PHP/WriteNotes.php";
 
 
             //isFormValid = $("#addNotesForm").valid();  
